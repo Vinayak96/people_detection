@@ -46,13 +46,14 @@ along with the coordinates of the ground truth boxes. The json file was then use
 with the following format:
 _Filepath,x1,y1,x2,y2,class_name
 where,
+```
 ● filepath is the path of the training image
 ● x1 is the xmin coordinate for bounding box
 ● y1 is the ymin coordinate for bounding box
 ● x2 is the xmax coordinate for bounding box
 ● y2 is the ymax coordinate for bounding box
 ● class_name is the name of the class, i.e., human in that bounding box_
-
+```
 #### Pre-processing
 
 ```
