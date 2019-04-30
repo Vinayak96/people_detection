@@ -94,7 +94,7 @@ The accuracy of the RPN bounding box was : 93.17%
 
 The following is the rate of growth of accuracy with the number of epochs:
 
-![alt](https://github.com/Vinayak96/people_detection/blob/master/test_results/plot.png)
+![alt](/test_results/plot.png)
 
 
 The following are the classification results:
