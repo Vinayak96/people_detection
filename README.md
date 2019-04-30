@@ -91,10 +91,18 @@ In-order to deal with overlapping bounding boxes, non-max suppression is applied
 ### Results
 
 The accuracy of the RPN bounding box was : 93.17%
+
+![alt](https://github.com/Vinayak96/people_detection/test_results/Screenshot%202018-11-16%20at%202.01.38%20PM.png)
+
 The following is the rate of growth of accuracy with the number of epochs:
+
+![alt](https://github.com/Vinayak96/people_detection/test_results/plot.png)
 
 
 The following are the classification results:
+
+![alt](https://github.com/Vinayak96/people_detection/test_results/multiperson.png)
+
 
 
 ### Future work
@@ -105,31 +113,28 @@ one bounding box coordinates could be provided to the model. Since the model tre
 data outside the bounding box as negative samples, there might be the case that a few images of
 people were assumed to be negative sample. Such samples might have affected the accuracy of
 the model.
-● I recently came across a paper^1 which provides the neural net training images after applying
-HOG on them to extract relevant features. I would like to try such preprocessing to my model.
+● I recently came across a paper ( Martinson, E., and V. Yalla. "Real-time human detection for robots 
+using CNN with a feature-based layered pre-filter." _Robot and Human Interactive Communication (RO-MAN), 
+2016 25th IEEE International Symposiumon_ . IEEE, 2016.) which provides the neural net training images 
+after applying HOG on them to extract relevant features. I would like to try such preprocessing to my model.
 ```
 ## Bibliography
 
 ```
 ● Literature Review
-○ Girshick, Ross. "Fast r-cnn." ​ Proceedings of the IEEE international conference on computer vision ​. 2015.
-○ Redmon, Joseph, et al. "You only look once: Unified, real-time object detection." ​ Proceedings of the
-IEEE conference on computer vision and pattern recognition ​. 2016.
-○ He, Kaiming, et al. "Deep residual learning for image recognition." ​ Proceedings of the IEEE conference
-on computer vision and pattern recognition ​. 2016.
-○ https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f
-○ https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff
-○ https://medium.com/@madhawavidanapathirana/https-medium-com-madhawavidanapathirana-r
-eal-time-human-detection-in-computer-vision-part-1-2acb851f4e
-○ https://medium.com/@madhawavidanapathirana/real-time-human-detection-in-computer-vision
--part-2-c7eda27115c
+  ○ Girshick, Ross. "Fast r-cnn." ​ Proceedings of the IEEE international conference on computer vision ​. 2015.
+  ○ Redmon, Joseph, et al. "You only look once: Unified, real-time object detection." ​ Proceedings of the
+  IEEE conference on computer vision and pattern recognition ​. 2016.
+  ○ He, Kaiming, et al. "Deep residual learning for image recognition." ​ Proceedings of the IEEE conference
+  on computer vision and pattern recognition ​. 2016.
+  ○ https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f
+  ○ https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff
+  ○ https://medium.com/@madhawavidanapathirana/https-medium-com-madhawavidanapathirana-real-time-human-detection-in-computer-vision-part-1-2acb851f4e
+  ○ https://medium.com/@madhawavidanapathirana/real-time-human-detection-in-computer-vision-part-2-c7eda27115c
 ● Code References:
-○ https://github.com/kbardool/keras-frcnn
-○ https://www.pyimagesearch.com/2015/02/16/faster-non-maximum-suppression-python/
+  ○ https://github.com/kbardool/keras-frcnn
+  ○ https://www.pyimagesearch.com/2015/02/16/faster-non-maximum-suppression-python/
 ● Datasets
-○ http://pascal.inrialpes.fr/data/human/
-○ https://www.cis.upenn.edu/~jshi/ped_html/
+  ○ http://pascal.inrialpes.fr/data/human/
+  ○ https://www.cis.upenn.edu/~jshi/ped_html/
 ```
-(^1) ​Martinson, E., and V. Yalla. "Real-time human detection for robots using CNN with a feature-based layered
-pre-filter." ​ _Robot and Human Interactive Communication (RO-MAN), 2016 25th IEEE International Symposium
-on_ ​. IEEE, 2016.
