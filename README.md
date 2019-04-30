@@ -92,16 +92,16 @@ In-order to deal with overlapping bounding boxes, non-max suppression is applied
 
 The accuracy of the RPN bounding box was : 93.17%
 
-![alt](https://github.com/Vinayak96/people_detection/test_results/Screenshot%202018-11-16%20at%202.01.38%20PM.png)
+![alt](https://github.com/Vinayak96/people_detection/blob/master/test_results/Screenshot%202018-11-16%20at%202.01.38%20PM.png)
 
 The following is the rate of growth of accuracy with the number of epochs:
 
-![alt](https://github.com/Vinayak96/people_detection/test_results/plot.png)
+![alt](https://github.com/Vinayak96/people_detection/blob/master/test_results/plot.png)
 
 
 The following are the classification results:
 
-![alt](https://github.com/Vinayak96/people_detection/test_results/multiperson.png)
+![alt](https://github.com/Vinayak96/people_detection/blob/master/test_results/multiperson.png)
 
 
 
