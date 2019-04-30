@@ -1,6 +1,4 @@
-Vinayak Agarwal 1
-Professor Ravi Kothari
-Unstructured Information Processing
+#### Vinayak Agarwal | Professor Ravi Kothari | Unstructured Information Processing
 
 # Person Detection using Faster-RCNN
 
