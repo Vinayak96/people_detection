@@ -90,7 +90,7 @@ In-order to deal with overlapping bounding boxes, non-max suppression is applied
 
 The accuracy of the RPN bounding box was : 93.17%
 
-![alt](/test_results/Screenshot%202018-11-16%20at%202.01.38%20PM.png)
+![alt](/test_results/verbose.png)
 
 The following is the rate of growth of accuracy with the number of epochs:
 
